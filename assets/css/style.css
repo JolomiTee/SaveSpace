@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+nav{
+    font-weight: 700;
+    color: #1E1E1E !important;
+}
+button{
+    font-size: 18px !important;
+    border-radius: 8px !important;
+    padding: 16px, 24px, 16px, 24px !important;
+}
+form button{
+    font-weight: 500 !important;
+}
+h1{
+    font-weight: 700;
+}
+.truncated{
+    background-color: #023BD4;
+    padding: 6px;
+    color: #F6F9FF;
+    clip-path: polygon(0 20%, 100% 5%, 100% 95%, 0 80%);
+}
+.journey-steps > div{
+    line-height: 26px;
+    display: grid;
+    grid-template-columns: .2fr 1fr;
+}
+.recent-transactions{
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.recents-header{
+    display: flex;
+    justify-content: space-between;
+}
+.recent-description{
+    display: grid;
+    grid-template-columns: .1fr .7fr .3fr;
+    font-size: 12px;
+    align-items: center;
+}
+.testimonial{
+    grid-template-columns: .2fr .8fr;
+    gap: 10px;
+}
+h4 small {
+    font-weight: 600;
+}
+.social-icons{
+    gap: 20px;
+}
+footer{
+left: 0px;
+right: 0px;
+bottom: 0px;
+}
+footer li{
+    font-size: 20px;
+    list-style: none;
+    font-weight: 500;
+}
+footer p{
+    font-size: 16px;
+    font-weight: 400;
+}
+footer h5{
+    font-weight: 700;
+}
+.footer-save{
+    margin-top: -25px;
+}
+
+/* specifications for bootstrap{} */
+.bg-primary, .btn-primary{
+    background-color: #0247FE !important;
+}
+.bg-light{
+    background-color: #F6F9FF;
+}
+.text-primary{
+    color: #0247FE;
+}
+.btn-outline-primary{
+    border-color: #0247FE;
+}
+footer.bg-primary{
+    background-color: #023BD4 !important;
+}
