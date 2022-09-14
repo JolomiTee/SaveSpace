@@ -14,6 +14,10 @@ button{
 form button{
     font-weight: 500 !important;
 }
+button:hover{
+    transform: scale(1.01);
+    background-color: #3c6ef7 !important;
+}
 h1{
     font-weight: 800;
 }
@@ -22,7 +26,6 @@ h1{
     padding: 6px;
     color: #F6F9FF;
     clip-path: polygon(0 20%, 100% 5%, 100% 95%, 0 80%);
-    line-break: anywhere;
 }
 .journey-steps > div{
     line-height: 26px;
@@ -62,6 +65,7 @@ footer li{
     font-size: 20px;
     list-style: none;
     font-weight: 500;
+    cursor: pointer;
 }
 footer p{
     font-size: 16px;
