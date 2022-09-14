@@ -14,14 +14,15 @@ button{
 form button{
     font-weight: 500 !important;
 }
-h1{
-    font-weight: 700;
+h2{
+    font-weight: 800;
 }
 .truncated{
     background-color: #023BD4;
     padding: 6px;
     color: #F6F9FF;
     clip-path: polygon(0 20%, 100% 5%, 100% 95%, 0 80%);
+    line-break: anywhere;
 }
 .journey-steps > div{
     line-height: 26px;
